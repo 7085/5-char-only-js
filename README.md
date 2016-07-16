@@ -22,7 +22,7 @@ To cut a long story short here are my findings:
 
 ## Minimal charset:
 ```
-[]!+`
+[ ] ! +`
 ```
 
 ## Character translation table:
