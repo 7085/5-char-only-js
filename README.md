@@ -135,9 +135,10 @@ const special = {
 	"_": "``[`constructor`][`constructor`]`return unescape("%5f")```",
 	"`": "``[`constructor`][`constructor`]`return unescape("%60")```",
 	"|": "``[`constructor`][`constructor`]`return unescape("%7c")```",
-	"~": "``[`constructor`][`constructor`]`return unescape("%7e")```",
+	"~": "``[`constructor`][`constructor`]`return unescape("%7e")```"
 };
 ```
 ## TODO
 - optimize
 - find missing chars / shorter versions
+- improve this readme
