@@ -26,7 +26,7 @@ To cut a long story short here are my findings:
 ```
 
 ## Character translation table:
-The translation tables which I found out so far, also with some help of the jsfuck wiki (https://github.com/aemkei/jsfuck/wiki):
+The translation tables which I found out so far, also with some help of the really nice JSFuck wiki (https://github.com/aemkei/jsfuck/wiki):
 ```javascript
 // execute ``[`constructor`][`constructor`]`xxx```
 // string conversion [``+xxx][0]
