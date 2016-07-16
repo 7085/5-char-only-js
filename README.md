@@ -18,11 +18,14 @@ currently necessary 6 characters to be able to execute arbitrary JavaScript) in 
 https://gitter.im/aemkei/jsfuck.
 
 To cut a long story short here are my findings:
-The new minimal charset consists of:
+
+
+## Minimal charset:
 ```
 []!+`
 ```
 
+## Character translation table:
 The translation tables which I found out so far, also with some help of the jsfuck wiki (https://github.com/aemkei/jsfuck/wiki):
 ```javascript
 // execute ``[`constructor`][`constructor`]`xxx```
