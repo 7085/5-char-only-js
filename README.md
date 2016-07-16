@@ -26,7 +26,7 @@ To cut a long story short here are my findings:
 ```
 
 ## Character translation table:
-The translation tables which I found out so far, also with some help of the really nice JSFuck wiki (https://github.com/aemkei/jsfuck/wiki):
+The translation tables which I found out so far, also with some help of the really nice JSFuck wiki (https://github.com/aemkei/jsfuck/wiki) which saved me some time, is as follows:
 ```javascript
 // execute ``[`constructor`][`constructor`]`xxx```
 // string conversion [``+xxx][0]
@@ -82,3 +82,6 @@ const special = {
 	"}": "[``+[][`fill`]][0][32]", // [].fill WARNING: different between browsers, in FF this is at index 36
 };
 ```
+## TODO
+- optimize
+- find missing chars / shorter versions
