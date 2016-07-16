@@ -11,7 +11,7 @@ I noticed a lot of discussion was going on about breaking "The JS Wall" (which i
 currently necessary 6 characters to be able to execute arbitrary JavaScript) in the comments and especially here: 
 https://gitter.im/aemkei/jsfuck.
 
-To cut a long story short here are my findings:
+To cut a long story short here are my findings, it is far from optimal but it includes all necessary characters.
 
 
 ## Minimal charset:
@@ -24,6 +24,8 @@ The translation tables which I found out so far, also with some help of the real
 ```javascript
 // execute ``[`constructor`][`constructor`]`xxx```
 // string conversion [``+xxx][0]
+
+// example: ``[`constructor`][`constructor`]`alert("5 chars only!")```
 
 const builtin = {
 	"\"\"": "``",
@@ -142,3 +144,4 @@ const special = {
 - optimize
 - find missing chars / shorter versions
 - improve this readme
+- better explanation
