@@ -8,7 +8,7 @@ As I said in the beginning I didn't see much new which I did not know already in
 which was linked in the tweet. The only interesting thing were those JavaScript string templates or multiline strings (https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/template_strings) 
 which were used and fiddled around with. I didn't know about the code execution possibilites by those, so I had to read more about them.
 
-When I rechecked the blog post and read the JS documentation about template strings today (when I saw it yesterday it was already very late), I thought I should also give it a try. After some time I found a possible solution which only needs 5 different characters to execute arbitrary JavaScript. 
+When I rechecked the blog post and read the JS documentation about template strings today (when I saw it yesterday it was already very late), I thought I should also give it a try. ~~After some time I found a possible solution which only needs 5 different characters to execute arbitrary JavaScript.~~ 
 I noticed a lot of discussion was going on about breaking "The JS Wall" (which is a reference to the 
 currently necessary 6 characters to be able to execute arbitrary JavaScript) in the comments and especially here: 
 https://gitter.im/aemkei/jsfuck.
