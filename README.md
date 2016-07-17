@@ -1,6 +1,6 @@
 # 5-char-only-js
 
-**IMPORTANT: unfortunately this does not work as expected - the execution function does not handle the encoded string appropriately**
+**IMPORTANT: Unfortunately this does not work as expected - the execution function does not handle the encoded string appropriately. The encoding table is valid and can be used.**
 
 After I saw a tweet (https://twitter.com/Burp_Suite/status/753964655916249088) about some minimal charset JavaScript yesterday which reminded me of JSFuck (http://www.jsfuck.com/) I read the article but didn't see much new stuff. I stumbled upon JSFuck a few years ago when I was doing a presentation about JavaScript obfuscation at university in one of the security courses. It was very fascinating to see those possibilities so I also read the original discussions on the sla.ckers.org website and all other related sites and approaches.
 
@@ -143,7 +143,7 @@ const special = {
 };
 ```
 ## TODO
-- *find working executor*
+- **find working executor**
 - optimize
 - find missing chars / shorter versions
 - improve this readme
