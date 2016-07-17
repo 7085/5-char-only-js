@@ -114,11 +114,11 @@ const special = {
 	"[": "[``+[][`fill`]][0][18]", // WARNING: different between browsers, in FF this is at index 22
 	"]": "[``+[][`fill`]][0][30]", // WARNING: different between browsers, in FF this is at index 34
 	"}": "[``+[][`fill`]][0][32]", // WARNING: different between browsers, in FF this is at index 36
-	"<": "``["fontcolor"]``[0]",
-	"=": "``["fontcolor"]``[11]",
-	"\"": "``["fontcolor"]``[12]",
-	">": "``["fontcolor"]``[16]",
-	"/": "``["fontcolor"]``[18]",
+	"<": "``[`fontcolor`]``[0]",
+	"=": "``[`fontcolor`]``[11]",
+	"\"": "``[`fontcolor`]``[12]",
+	">": "``[`fontcolor`]``[16]",
+	"/": "``[`fontcolor`]``[18]",
 	"%": "``[`constructor`][`constructor`]`return escape("]")```[0]",
 	"!": "``[`constructor`][`constructor`]`return unescape("%21")```",
 	"#": "``[`constructor`][`constructor`]`return unescape("%23")```",
@@ -143,6 +143,7 @@ const special = {
 };
 ```
 ## TODO
+- *find working executor*
 - optimize
 - find missing chars / shorter versions
 - improve this readme
