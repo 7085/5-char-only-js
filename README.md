@@ -79,11 +79,11 @@ const chars = {
 	"z": "35[`toString`]`36`",
 
 	"A": "[``+[][`constructor`]][0][9]",
-	"B": "``[`constructor`][`constructor`]`return unescape("%42")```",
+	"B": "[``+[[!``][0][`constructor`]][0]][0][9]",
 	"C": "``[`constructor`][`constructor`]`return unescape("%43")```",
 	"D": "``[`constructor`][`constructor`]`return unescape("%44")```",
 	"E": "``[`constructor`][`constructor`]`return unescape("%45")```",
-	"F": "``[`constructor`][`constructor`]`return unescape("%46")```",
+	"F": "[``+[``[`constructor`][`constructor`]][0]][0][9]",
 	"G": "``[`constructor`][`constructor`]`return unescape("%47")```",
 	"H": "``[`constructor`][`constructor`]`return unescape("%48")```",
 	"I": "``[`constructor`][`constructor`]`return unescape("%49")```",
