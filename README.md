@@ -60,7 +60,7 @@ const chars = {
 	"g": "[``+``[`constructor`]][0][14]",
 	"h": "17[`toString`]`36`",
 	"i": "[``+``[``]][0][5]", // undefined
-	"j": "19[`toString`]`36`",
+	"j": "[``+[][`entries`]``][0][3]", // [object Array Iterator]
 	"k": "20[`toString`]`36`",
 	"l": "[``+!!``][0][2]", // false
 	"m": "[``+0[`constructor`]][0][11]",
@@ -86,13 +86,13 @@ const chars = {
 	"F": "[``+[``[`constructor`][`constructor`]][0]][0][9]",
 	"G": "``[`constructor`][`constructor`]`return unescape("%47")```",
 	"H": "``[`constructor`][`constructor`]`return unescape("%48")```",
-	"I": "``[`constructor`][`constructor`]`return unescape("%49")```",
+	"I": "[``+[][`entries`]``][0][14]",
 	"J": "``[`constructor`][`constructor`]`return unescape("%4a")```",
 	"K": "``[`constructor`][`constructor`]`return unescape("%4b")```",
 	"L": "``[`constructor`][`constructor`]`return unescape("%4c")```",
 	"M": "``[`constructor`][`constructor`]`return unescape("%4d")```",
 	"N": "[``+0[`constructor`]][0][9]",
-	"O": "``[`constructor`][`constructor`]`return unescape("%4f")```",
+	"O": "[``+[][`entries`]``[`constructor`]][0][9]",
 	"P": "``[`constructor`][`constructor`]`return unescape("%50")```",
 	"Q": "``[`constructor`][`constructor`]`return unescape("%51")```",
 	"R": "``[`constructor`][`constructor`]`return unescape("%52")```",
